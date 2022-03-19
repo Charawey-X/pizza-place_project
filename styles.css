@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 nav {
   background-color: transparent;
   margin:30px 100px !important;
@@ -8,11 +12,11 @@ nav a {
   text-align: center!important;
   padding:14px 14px !important;
   font-size: 20px !important;
-  color:chocolate !important;
+  color:white !important;
 }
 
 nav a:hover {
-  color:green !important;
+  color:fuchsia !important;
 }
 
 .carousel-item img {
@@ -24,4 +28,20 @@ nav a:hover {
    width: 10px;
   height: 10px;
   border-radius: 100%;
+}
+
+.carousel .carousel-control-prev,.carousel .carousel-control-next {
+  visibility: hidden !important;
+}
+
+.carousel:hover .carousel-control-prev, .carousel:hover .carousel-control-next {
+  visibility: visible !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  top:60px;
+  font-size: 50px;
+  color: white !important;
+  text-align: center !important;
 }
