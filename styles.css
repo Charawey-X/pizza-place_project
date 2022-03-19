@@ -1,0 +1,27 @@
+nav {
+  background-color: transparent;
+  margin:30px 100px !important;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center!important;
+  padding:14px 14px !important;
+  font-size: 20px !important;
+  color:chocolate !important;
+}
+
+nav a:hover {
+  color:green !important;
+}
+
+.carousel-item img {
+  width: 100% !important;
+  height: 650px !important;
+}
+
+.carousel .carousel-indicators li {
+   width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
