@@ -1,5 +1,6 @@
 html {
   overflow-x: hidden;
+  font-family:"Alegreya";
 }
 
 .container-fluid{
@@ -20,7 +21,11 @@ nav a {
 }
 
 nav a:hover {
-  color:fuchsia !important;
+  color:red !important;
+}
+
+h1{
+  font-size: 70px;
 }
 
 .carousel-item {
@@ -51,8 +56,9 @@ nav a:hover {
   position: absolute;
   top:60px;
   font-size: 60px !important;
-  color: white !important;
+  color: lightgrey !important;
   text-align: center !important;
+  font-family: "Fredericka the Great" !important;
 }
 
 #menu {
@@ -93,7 +99,10 @@ nav a:hover {
 .menu h2 {
   text-align: center;
   padding-top:40px;
-  font-family: 'Gabriela', serif;
+  font-family: "Rye";
+  font-size:50px;
+  font-weight: bold;
+  color:maroon;
 }
 
 @media (max-width: 800px) {
@@ -116,6 +125,15 @@ nav a:hover {
   nav a {
     font-size: 12px !important;
   }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .menu h2 {
+    font-size: 30px;
+  }
+
   .carousel-caption {
     font-size: 20px !important;
     top:25px !important;
@@ -139,6 +157,9 @@ nav a:hover {
   color: white;
   padding-top: 4%;
   padding-bottom: 4%;
+  font-family:"Alegreya";
+  font-weight: bold;
+  font-size:20px;
 }
 .order-overlay {
   background-color: rgba(0, 0, 0, 0.8);
@@ -182,10 +203,11 @@ td,th {
   padding-right: 10%;
   padding-left: 10%;
   font-size: 28px;
+  color: lime;
 }
 #regards{
   text-align: center;
-  color: blue;
+  color: deepskyblue;
 }
 #information{
   padding-top: 5%;
@@ -197,4 +219,18 @@ td,th {
 
 .btn-orange {
   background-color:orangered !important;
+  border-radius:10px;
+  color: white;
+  margin-top:30px;
+  margin-right:60px;
+  font-family:"Rye";
+  text-transform: uppercase;
+}
+
+.btn-orange:hover {
+  color:navy !important;
+}
+
+.proceed {
+  margin-top:-30px;
 }
