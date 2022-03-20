@@ -7,8 +7,7 @@ html {
 }
 nav {
   background-color: transparent;
-  margin:30px 100px !important;
-  position: absolute !important;
+  margin:0px 0px !important;
 }
 
 nav a {
@@ -50,7 +49,7 @@ nav a:hover {
 .carousel-caption {
   position: absolute;
   top:60px;
-  font-size: 50px;
+  font-size: 60px !important;
   color: white !important;
   text-align: center !important;
 }
@@ -70,6 +69,20 @@ nav a:hover {
   margin-left:5%;
   margin-right: 5%;
 }
+
+#overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+  display: none;
+  color: black;
+  width: 280px;
+  height: 200px;
+  background-color:rgba(255, 255, 255, 0.456);
+  position:absolute;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
 .col-md-3 img{
   width: 280px !important;
   height: 200px;
@@ -80,7 +93,7 @@ nav a:hover {
   font-family: 'Gabriela', serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .carousel-item {
     height: 300px !important;
   }
@@ -90,5 +103,14 @@ nav a:hover {
     height: 80% !important;
     margin-left: 50px !important;
     margin-right: auto !important;
+  }
+
+  nav a {
+    font-size: 12px !important;
+  }
+  .carousel-caption {
+    font-size: 20px !important;
+    top:25px !important;
+    left:50px !important;
   }
 }
