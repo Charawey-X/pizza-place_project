@@ -5,6 +5,7 @@ html {
 nav {
   background-color: transparent;
   margin:30px 100px !important;
+  position: absolute !important;
 }
 
 nav a {
@@ -21,7 +22,7 @@ nav a:hover {
 
 .carousel-item img {
   width: 100% !important;
-  height: 650px !important;
+  height: 670px !important;
 }
 
 .carousel .carousel-indicators li {
