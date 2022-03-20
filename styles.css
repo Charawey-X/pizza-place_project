@@ -2,6 +2,9 @@ html {
   overflow-x: hidden;
 }
 
+.container-fluid{
+  padding:0 !important;
+}
 nav {
   background-color: transparent;
   margin:30px 100px !important;
@@ -20,13 +23,18 @@ nav a:hover {
   color:fuchsia !important;
 }
 
+.carousel-item {
+  height: 655px !important;
+}
+
 .carousel-item img {
   width: 100% !important;
-  height: 660px !important;
+  height: 100% !important;
+  object-fit: cover;
 }
 
 .carousel .carousel-indicators li {
-   width: 10px;
+  width: 10px;
   height: 10px;
   border-radius: 100%;
 }
@@ -58,6 +66,7 @@ nav a:hover {
   flex-wrap: wrap;
   align-items: center;
   margin-top:2%;
+  margin-bottom:2%;
   margin-left:5%;
   margin-right: 5%;
 }
@@ -69,4 +78,17 @@ nav a:hover {
   text-align: center;
   padding-top:40px;
   font-family: 'Gabriela', serif;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 300px !important;
+  }
+
+  .col-md-3 img{
+    width: 80% !important;
+    height: 80% !important;
+    margin-left: 50px !important;
+    margin-right: auto !important;
+  }
 }
