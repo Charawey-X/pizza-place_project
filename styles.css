@@ -241,15 +241,23 @@ td,th {
 
 #contact h2{
   text-align: center;
+  margin-top:80px;
 }
 
 #contact{
   color:white;
   font-family: "Alegreya";
+  margin-top:200px;
+  margin-bottom:100px;
 }
 
 #contactdetails h2{
   text-align: left;
+}
+
+
+.mapouter {
+  margin-top:70px;
 }
 
 iframe {
