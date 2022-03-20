@@ -123,7 +123,7 @@ h1{
   }
 
   nav a {
-    font-size: 12px !important;
+    font-size: 15px !important;
   }
 
   h1 {
@@ -242,6 +242,7 @@ td,th {
 #contact h2{
   text-align: center;
   margin-top:80px;
+  font-weight:bolder;
 }
 
 #contact{
@@ -249,10 +250,12 @@ td,th {
   font-family: "Alegreya";
   margin-top:200px;
   margin-bottom:100px;
+  font-size: 25px;
 }
 
 #contactdetails h2{
   text-align: left;
+  font-weight: bolder;
 }
 
 
