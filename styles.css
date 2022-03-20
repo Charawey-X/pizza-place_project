@@ -8,6 +8,7 @@ html {
 nav {
   background-color: transparent;
   margin:0px 0px !important;
+  position: absolute !important;
 }
 
 nav a {
@@ -58,9 +59,10 @@ nav a:hover {
   background-image: url("assets/menu-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 650px !important;
 }
 
-#variety{
+#variety {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -68,6 +70,7 @@ nav a:hover {
   margin-bottom:2%;
   margin-left:5%;
   margin-right: 5%;
+  padding-top: 20px !important;
 }
 
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
@@ -83,11 +86,11 @@ nav a:hover {
   font-family: 'Delius Swash Caps', cursive;
 }
 
-.col-md-3 img{
+.col-md-3 img {
   width: 280px !important;
   height: 200px;
 }
-.menu h2{
+.menu h2 {
   text-align: center;
   padding-top:40px;
   font-family: 'Gabriela', serif;
@@ -103,6 +106,11 @@ nav a:hover {
     height: 80% !important;
     margin-left: 50px !important;
     margin-right: auto !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  nav {
+    position: absolute !important;
   }
 
   nav a {
@@ -113,4 +121,55 @@ nav a:hover {
     top:25px !important;
     left:50px !important;
   }
+  #menu {
+    height:100% !important;
+  }
+
+}
+
+.order h2 {
+  text-align: center;
+}
+
+.order {
+  background-attachment: fixed;
+  background-image: url("../images/slider2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
+.choose {
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.deliver {
+  display: none;
+}
+.delivery {
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,th {
+  font-size: 20px;
+  color: white;
+}
+.choose h2 {
+  color:orange;
+  text-align: left;
+}
+#your-orders {
+  color: white;
+  font-size: 30px;
 }
