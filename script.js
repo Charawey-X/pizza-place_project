@@ -70,7 +70,7 @@ $(document).ready(function(){
   // $("button.proceed").click(function(){
   //   $("button.proceed").hide();
   //   $("#information").hide();
-  //   $("div.choise").slideDown(1000);
+  //   $("div.choice").slideDown(1000);
   // });
   $("button.proceed").click(function(event){
    let pname = $(".name option:selected").val();
@@ -123,13 +123,13 @@ $(document).ready(function(){
       console.log("nothing selected");
       $("button.proceed").show();
       $("#information").show();
-      $("div.choise").hide();
+      $("div.choice").hide();
       alert("Please select pizza size and crust");
     }
     else{
       $("button.proceed").hide();
       $("#information").hide();
-      $("div.choise").slideDown(1000);
+      $("div.choice").slideDown(1000);
     }
 
     total = price + crust_price + topping_value;
@@ -216,7 +216,7 @@ $(document).ready(function(){
     // home delivery button
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
-      $(".choise h2").hide();
+      $(".choice h2").hide();
       $(".delivery").slideDown(1000);
       $("#addedprice").hide();
       $("button.deliver").hide();
@@ -241,7 +241,7 @@ $(document).ready(function(){
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
 
-        $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
+        $("#finalmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
         $("#totalbill").hide();
         $("#finallmessage").slideDown(1200);
       }

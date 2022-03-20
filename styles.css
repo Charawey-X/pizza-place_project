@@ -131,7 +131,7 @@ nav a:hover {
   text-align: center;
 }
 
-#order {
+.order {
   background-attachment: fixed;
   background-image: url("assets/order-background.jpg");
   background-size: cover;
@@ -147,7 +147,7 @@ nav a:hover {
   padding-bottom: 20px;
   padding-left: 6%;
 }
-.choose {
+.choice {
   display: none;
   padding-left: 2%;
   padding-right: 2%;
@@ -164,11 +164,37 @@ td,th {
   font-size: 20px;
   color: white;
 }
-.choose h2 {
-  color:orange;
+.choice h2 {
+  color:orangered;
   text-align: left;
 }
 #your-orders {
   color: white;
   font-size: 30px;
+}
+
+#addedprice{
+  display: none;
+}
+#finalmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#regards{
+  text-align: center;
+  color: blue;
+}
+#information{
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: #ffa500;
+}
+
+.btn-orange {
+  background-color:orangered !important;
 }
