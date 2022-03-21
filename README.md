@@ -4,7 +4,7 @@ This is a website for a pizza place. One can make orders and choose pickup or de
 ## Setup Instructions
 > Click on the image below to view website:
 
-[![Preview](assets/Picsum.png)](https://github.com/Charawey-X/pizza-place_project/blob/main/LICENSE)
+[![Preview](assets/Picsum.png)](https://charawey-x.github.io/pizza-place_project/)
 > Click on the navbar links or scroll to move between the sections.<br>
 > Make an order and choose pickup or delivery.
 
