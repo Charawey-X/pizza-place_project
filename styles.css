@@ -110,7 +110,7 @@ h1{
   color:maroon;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
   .carousel-item {
     height: 300px !important;
   }
@@ -149,13 +149,13 @@ h1{
   }
 
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-    font-size:20px;
+    font-size:14px;
     text-align:center;
     margin-left: 50px;
     margin-right: auto !important;
     margin-top: -20px;
     margin-bottom: 20px;
-    width: 15%;
+    width:16%;
   }
 
 }
